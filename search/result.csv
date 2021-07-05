@@ -1,0 +1,3 @@
+_id,createdAt,customerId,invoiceId
+"""60e359931fe31204e006a1b8""",2009-09-16T20:39:13.736Z,customer1,invoice1
+"""60e359931fe31204e006a1be""",2013-03-13T18:01:45.953Z,customer7,invoice7
