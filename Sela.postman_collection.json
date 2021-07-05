@@ -1,0 +1,98 @@
+{
+	"id": "006d3cdc-a6b0-b10d-2de0-7afe005d8330",
+	"name": "Sela",
+	"description": "",
+	"order": [
+		"cf0ccf61-14dc-5467-2cee-abaecca921f2",
+		"05201548-6d0e-c15e-a71e-2ce92b35e5a6",
+		"33dd7427-1c08-3640-b6c5-cc43de255cc8"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1625513585262,
+	"owner": "640380",
+	"public": false,
+	"requests": [
+		{
+			"id": "05201548-6d0e-c15e-a71e-2ce92b35e5a6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/search",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1625513715319,
+			"name": "http://localhost:3000/search",
+			"description": "",
+			"collectionId": "006d3cdc-a6b0-b10d-2de0-7afe005d8330",
+			"responses": [],
+			"rawModeData": "{\n\t\"startDate\": \"1253133553736\",\n\t\"endDate\": \"1363197705953\"\n}"
+		},
+		{
+			"id": "33dd7427-1c08-3640-b6c5-cc43de255cc8",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/download/result.csv",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1625516499192,
+			"name": "http://localhost:3000/download",
+			"description": "",
+			"collectionId": "006d3cdc-a6b0-b10d-2de0-7afe005d8330",
+			"responses": []
+		},
+		{
+			"id": "cf0ccf61-14dc-5467-2cee-abaecca921f2",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/data/upload",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "006d3cdc-a6b0-b10d-2de0-7afe005d8330",
+			"data": [
+				{
+					"key": "file",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:3000/data/upload",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1625513586701,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
